@@ -1,0 +1,10 @@
+# Python package requirements for SafeStep
+# On Raspberry Pi OS, install picamera2 using apt: sudo apt install python3-picamera2
+
+numpy
+opencv-python
+ultralytics
+torch
+torchvision
+pillow
+tqdm

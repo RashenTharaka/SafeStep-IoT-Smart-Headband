@@ -1,0 +1,30 @@
+# Python cache and virtual environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Large duplicate archives / generated exports
+*.zip
+*.tar
+*.tar.gz
+
+# Do not ignore model files. They are required for this academic project.
+!models/**/*.pb
+!models/**/*.pbtxt
+!models/**/*.bin
+!models/**/*.param
+!models/**/*.yaml
