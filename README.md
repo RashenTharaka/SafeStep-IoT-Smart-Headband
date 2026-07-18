@@ -4,6 +4,12 @@ SafeStep is an ML-driven IoT assistive system designed to support visually impai
 
 The project uses a Raspberry Pi camera feed, an SSD MobileNet model for general object detection, a custom YOLOv8 NCNN model for door/stairs/window detection, and eSpeak NG for spoken feedback.
 
+<p align="center">
+  <img src="docs/images/safestep-system-overview.png"
+       alt="SafeStep smart headband system overview showing camera capture, AI processing, and voice guidance"
+       width="100%">
+</p>
+
 ## Main Features
 
 - Real-time camera-based object detection
